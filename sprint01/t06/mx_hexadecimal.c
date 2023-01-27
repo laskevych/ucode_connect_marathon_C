@@ -1,0 +1,10 @@
+void mx_printchar(char c);
+
+void mx_hexadecimal(void) {
+	for (int i = 48; i <= 70; i++) {
+		if((i >= 48 && i <= 57) || (i >= 65 && i <= 70)) {
+			mx_printchar(i);
+		}
+	}
+}
+
