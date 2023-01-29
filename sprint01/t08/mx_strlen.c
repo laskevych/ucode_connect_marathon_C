@@ -8,7 +8,3 @@ int mx_strlen(const char *s) {
 	return i;
 }
 
-int main() {
-	mx_strlen("ucode");
-}
-
